@@ -1,0 +1,19 @@
+Initialize Database
+
+CRUD Operations => Create, Read, Update, Delete
+
+Index Route
+GET /listings -> all listings
+
+Read : Show Route
+GET /listings/:id -> all data
+
+toLocalString - this function converts any string into local string with commas
+num.toLocaleString("en-IN)
+
+Create : New & Create Route
+GET /listings/new -> Form -> Submit -> POST /listings
+
+UPDATE : Edit and Update Route
+GET /listings/:id/edit -> edit form -> Submit
+PUT /listings/:id
